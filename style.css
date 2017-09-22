@@ -1,0 +1,419 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway:200';
+
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0; 
+}
+
+ul#nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(0,0,0,0.5);
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2; 
+  text-align: center;
+}
+
+.w3-left { 
+  display: inline-block;
+  float:left;
+  height: 300px;
+
+}
+
+.w3-right {
+  display: inline-block;
+  float:right;
+  height: 300px;
+}
+
+#left {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 80px;
+}
+
+
+li {
+    display: inline-block;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.icon {
+  margin-right: 20px;
+}
+
+#resume {
+  color: #8498ba;
+}
+
+#skills {
+  background-color: #495054;
+  overflow: auto;
+}
+
+.experience {
+  background-color: #707a7e;
+  height: auto;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+.projects {
+  background-color: #495054;
+  height: auto;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+.projects img {
+  display: inline-block;
+  width: 200px;
+  padding-bottom: 5px;
+}
+
+.header {
+  padding-top: 20px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.header2 {
+  width: 100%;
+  text-align: center;
+  color: #8498ba;
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+.header3{
+  font-size: 20px;
+  color: #95979b;
+}
+
+.container { 
+  margin: 0 auto;
+  height: auto;
+  overflow: auto;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  text-align: center;
+  width: 100%;
+}
+
+#languages {
+  display: inline-block;
+  width: 300px;
+  height: auto;
+  overflow: auto;
+  vertical-align: top;
+  text-align: center;
+}
+
+#technologies {
+  display: inline-block;
+  overflow: auto;
+  width: 300px;
+}
+
+.circle {
+  width: 75px;
+  height: 75px;
+  line-height: 75px;
+  border-radius: 50%;
+  text-align: center;
+  border: 1px solid white;
+  color: white;
+  float: left;
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+  float: left;
+  margin: 10px;
+}
+
+.jobPicText { 
+
+  margin: 0 auto;
+  width: 80%;
+  height: auto;
+  overflow: hidden;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+
+#links a{
+       display: inline-block;
+       vertical-align: middle;
+     margin: 0 auto;
+     top: 0%;
+}
+
+a img { 
+  width: 30px;
+  height: 30px;
+}
+
+.introduction {
+    background-color: #dbd5cf;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    overflow: auto;
+}
+
+.proj-container {
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.job-container {
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.proj-description {
+  display: inline-block;
+  text-align: left;
+  min-width: 300px;
+  max-width: 500px;
+  vertical-align: top;
+  padding-left: 20px;
+}
+
+hr {
+  width: 60%;
+  margin-left: 20%;
+}
+
+.job-description {
+  display: inline-block;
+  text-align: left;
+  min-width: 300px;
+  max-width: 500px;
+  vertical-align: top;
+  padding-left: 20px;
+}
+
+.experience img{
+  display: inline-block;
+  width: 200px;
+  padding-bottom: 5px;
+}
+
+.proj-icon {
+  display: inline-block;
+  width: 200px;
+  padding-bottom: 10px;
+}
+
+div#portrait {
+  float: left;
+  padding-bottom: 50px;
+}
+
+#portrait {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  top: 50%;
+  margin-right: 20px;
+}
+
+.title {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 50px; 
+  font-family: 'Raleway', sans-serif;
+}
+
+.tint, .tintHeader {
+  z-index: 1;
+  background: rgba(0,0,0, 0.75);
+  width: 100%;
+}
+
+.languageContainer {
+  width: 70px;
+  text-align: center;
+  color: white;
+  float: left;
+  font-family: 'Raleway', sans-serif;
+  margin: 10px;
+}
+
+.languageContainer img {
+  height: 50px;
+  display: block;
+  margin: auto;
+}
+
+
+.tintHeader {
+  height: 100%;
+}
+
+.background1, .background2 {
+  position: relative;
+  opacity: 1;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#alex {
+  color: #8498ba;
+}
+
+#nguyen {
+  color: #8e8f91;
+}
+
+.background1 { 
+  background-color: black;
+  background-image: url("https://grs614.files.wordpress.com/2013/02/waterfront2.jpg");
+  height: 100%;
+}
+
+.background2 { 
+  background-color: #707a7e;
+  /*background-image: url("https://grs614.files.wordpress.com/2013/02/waterfront2.jpg");*/
+}
+
+.footer {
+  background-color: #284168;
+  text-align: center;
+  padding: 30px;
+}
+
+#marker { 
+  z-index: 3;
+  position: fixed; 
+  display: none; 
+  height: 3px; 
+  width: 50px; 
+  border-bottom: 1px solid white; 
+  top: 28;
+}
+
+#description {
+  font-size: 14px;
+  width: 70%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.fadeInBlock {
+    opacity:0;
+}
+
+.company { 
+  font-size: 32px;
+}
+
+.position {
+  font-size: 24px;
+}
+
+.companyPic { 
+  float: left;
+  margin-right: 20px;
+}
+
+/* Bob */
+@-webkit-keyframes hvr-bob {
+  0% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+
+  50% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+  }
+
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes hvr-bob {
+  0% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+
+  50% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+  }
+
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+
+@-webkit-keyframes hvr-bob-float {
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes hvr-bob-float {
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+
+.hvr-bob {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+}
+.hvr-bob:hover, .hvr-bob:focus, .hvr-bob:active {
+  -webkit-animation-name: hvr-bob-float, hvr-bob;
+  animation-name: hvr-bob-float, hvr-bob;
+  -webkit-animation-duration: .3s, 1.5s;
+  animation-duration: .3s, 1.5s;
+  -webkit-animation-delay: 0s, .3s;
+  animation-delay: 0s, .3s;
+  -webkit-animation-timing-function: ease-out, ease-in-out;
+  animation-timing-function: ease-out, ease-in-out;
+  -webkit-animation-iteration-count: 1, infinite;
+  animation-iteration-count: 1, infinite;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-direction: normal, alternate;
+  animation-direction: normal, alternate;
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ALEX NGUYEN</title>
+  <meta charset="utf-8">
+  <link href="http://www.w3schools.com/lib/w3.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js">
+  </script>
+  <script src="script.js">
+  </script>
+</head>
+<body>
+  <ul id="nav">
+    <li>
+      <a class="active" href="#home">HOME</a>
+    </li>
+    <li>
+      <a href="#skills">SKILLS</a>
+    </li>
+    <li>
+      <a href="#experience">EXPERIENCE</a>
+    </li>
+    <li>
+      <a href="#projects">PROJECTS</a>
+    </li>
+    <li>
+      <a href="anguyen_resume.pdf" id="resume">RESUME</a>
+    </li>
+  </ul><a id="home" name="home"></a>
+  <div class="background1">
+    <div class="tintHeader">
+      <div class="title">
+        hi, i'm <span id="alex">alex</span><span id="nguyen">nguyen</span>
+        <div id="description">
+          I am a 22 year old living in Boston, MA. Having recently graduated with a B.S. in Computer Science from Tufts University, I aspire to become a Software Developer and am currently seeking an entry-level role. Below are my skills, experiences, and projects.
+        </div>
+        <div id="links">
+          <a href="http://www.github.com/alextnguyen"><img alt="github" class="icon hvr-bob" src="pics/github-logo.png"></a> <a href="http://www.linkedin.com/in/alextnguyen"><img alt="linkedin" class="icon hvr-bob" src="pics/social.png"></a> <a class="icon hvr-bob" href="mailto:nguyen.alexthai@gmail.com"><img alt="email" src="pics/envelope.png"></a>
+        </div>
+      </div>
+    </div>
+  </div><a name="skills"></a>
+  <div id="skills">
+  <div class = "header">skills</div>
+    <div class="container">
+    <div id="languages">
+    <div class = "header2">languages</div>
+      <div class = "languageContainer">
+        <img src="pics/c.png" class = "hvr-bob"> C
+      </div>
+      <div class = "languageContainer">
+        <img src="pics/cpp.png" class = "hvr-bob"> C++
+      </div>
+      <div class = "languageContainer">
+        <img src="pics/java.png" class = "hvr-bob"> Java
+      </div>
+      <div class = "languageContainer">
+        <img src="pics/python.png" class = "hvr-bob"> Python
+      </div>
+      <div class = "languageContainer">
+        <img src="pics/html.png" class = "hvr-bob"> HTML5
+      </div>
+      <div class = "languageContainer">
+        <img src="pics/css.png" class = "hvr-bob"> CSS3
+      </div>
+      <div class = "languageContainer">
+        <img src="pics/javascript.png" class = "hvr-bob"> JavaSript
+      </div>
+      </div>
+    <div id="technologies">
+    <div class = "header2">technologies</div>
+      <div class = "hvr-bob circle">Android</div>
+      <div class = "hvr-bob circle">Git</div>
+      <div class = "hvr-bob circle">jQuery</div>
+      <div class = "hvr-bob circle">Node.js</div>
+      <div class = "hvr-bob circle">NoSQL</div>
+      <div class = "hvr-bob circle">PostgreSQL</div>
+      <div class = "hvr-bob circle">Unity</div>
+    </div>
+  </div>
+  </div>
+  <a id="experience" name="experience"></a>
+  <div class="experience background2">
+  <div class="tintHeader">
+
+      <div class = "header">experience</div>
+      <div class = "job-container">
+        <img src = "pics/statestreet.jpg"></img>
+        <div class = "job-description">
+        <span class = "header2"> Summer Intern </span> <br> <span class = "header3">State Street • June 2016 - August 2016 </span><br> • Developed an interface used to generate and run a SQL statement based on the user’s input
+        <br>• Designed a web template for the company’s weekly newsletter and created a generator that parses an email for content to produce the newsletter’s HTML
+        <br>• Created wireframes to reorganize and redesign the company’s home page in cooperation with the UX/UI team </div>
+      </div>
+      <hr>
+      <div class = "job-container">
+        <img src = "pics/tufts.jpg"></img> 
+        <div class = "job-description">
+        <span class = "header2"> Teaching Assistant </span> <br> <span class = "header3">Tufts University • January 2015 - May 2015 </span><br>
+        • Explained the fundamentals of C++ during lab and office hours for course, COMP11: Intro to Computer Science <br>
+• Provided constructive feedback on students’ projects by critiquing functionality, style, readability, runtime efficiency, and modularity 
+        </div>
+      </div>
+      </div>
+  </div>
+  <div class="projects">
+      <div class="header">projects</div>
+      <div class = "proj-container">
+        <div class = "proj-icon"><img src = "pics/queuer.png"></img> Github | Google Play</div>
+        <div class = "proj-description">
+        <span class = "header2"> QueueR </span> <br>
+        QueueR is an Android app to be used by restaurants and their customers. Restaurants sign up for an account, which generates for them a unique QR code that they can display in front of their restaurants. Customers can then use the app to scan this QR code to enter themselves onto the restaurant's waitlist. The customer's client then displays their position in line and they will receive a push notification for when their table is ready. On the restaurant's client, they are able to manage the wait list by setting statuses (waiting, seated, finished) to the entries. <br><br> To handle the account authentication, the database, and the push notifications, Google Firebase was used. To generate, scan, and decode the QR codes, a library called ZXing was used. 
+        </div>
+      </div>
+      <hr>
+      <div class = "proj-container">
+        <div class = "proj-icon"><img src = "pics/whoop.png"></img> Github | Google Play</div>
+        <div class = "proj-description">
+        <span class = "header2"> Whoop! </span> <br>
+      • Developed a vacation itinerary planner that displays attractions and upcoming events on a map in a team of three
+<br>• Full stack development using HTML5, CSS, Express + Node.js, Google Maps API, and TripAdvisor API
+
+        </div>
+      </div>
+      <hr>
+      <div class = "proj-container">
+        <div class = "proj-icon"><img src = "pics/conductr.png"></img> Github | Google Play</div>
+        <div class = "proj-description">
+        <span class = "header2"> ConductR </span> <br>
+        Ever in the middle of doing something productive online when a bad song comes up and ruins your vibe? Tired of having to switch tabs to play the next video on YouTube? Well, ConductR is the solution for you! With ConductR, you are the conductor for your own orchestra. This web app uses your webcam along with your hand gestures to manipulate a YouTube playlist that you enter. Wave right to play the next video, wave left to play the previous, wave up to stop, and wave down to shuffle. It's that easy! <br><br>
+        Developed using Bootstrap for the frontend, the YouTube API, and a library called Gest.js to recognize hand movements.
+        </div>
+      </div>
+  </div>
+  <div class = "footer">
+  <div id="links">
+          <a href="http://www.github.com/alextnguyen"><img alt="github" class="icon" src="pics/github-logo.png"></a> <a href="http://www.linkedin.com/in/alextnguyen"><img alt="linkedin" class="icon" src="pics/social.png"></a> <a class="icon" href="mailto:nguyen.alexthai@gmail.com"><img alt="email" src="pics/envelope.png"></a>
+        </div>
+  </div>
+</body>
+</html>
