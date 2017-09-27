@@ -148,13 +148,16 @@ li a:hover {
   overflow: auto;
   vertical-align: top;
   text-align: center;
-  margin-right: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 #technologies {
   display: inline-block;
   overflow: auto;
   width: 285px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .circle {
@@ -451,6 +454,12 @@ div#portrait {
 
 @media screen and (max-width: 479px) {
   ul#nav {
+    background-color: black;
+    text-align: right;
+    font-weight: bold;
+  }
+
+  .hidden-link {
     display: none;
   }
 
@@ -464,7 +473,7 @@ div#portrait {
     color: white;
     font-size: 36px; 
     font-family: 'Raleway', sans-serif;
-    margin: -100px 0 0 -150px;
+    margin: -100px 0 0 -160px;
   }
 
 }
