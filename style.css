@@ -311,12 +311,18 @@ div#portrait {
 }
 
 .background1 {
+  background-color: black;
+  background-image: url("pics/boston.jpg");
   position: relative;
   opacity: 1;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 100%;
 }
 
 #alex {
@@ -325,12 +331,6 @@ div#portrait {
 
 #nguyen {
   color: #8e8f91;
-}
-
-.background1 { 
-  background-color: black;
-  background-image: url("pics/boston.jpg");
-  height: 100%;
 }
 
 .footer {
