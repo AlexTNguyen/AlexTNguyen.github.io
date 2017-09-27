@@ -6,6 +6,7 @@ body, html {
     margin: 0; 
 }
 
+
 ul#nav {
   list-style-type: none;
   margin: 0;
@@ -50,6 +51,10 @@ li a {
     color: white;
     padding: 14px 16px;
     text-decoration: none;
+}
+
+li a:hover {
+  text-decoration: underline;
 }
 
 
@@ -138,17 +143,18 @@ li a {
 
 #languages {
   display: inline-block;
-  width: 300px;
+  width: 270px;
   height: auto;
   overflow: auto;
   vertical-align: top;
   text-align: center;
+  margin-right: 20px;
 }
 
 #technologies {
   display: inline-block;
   overflow: auto;
-  width: 300px;
+  width: 285px;
 }
 
 .circle {
@@ -177,6 +183,11 @@ li a {
   margin-right: 10px;
   margin-top: 10px;
   padding: 5px;
+}
+
+.tag1 {
+  border: 1px solid #8498ba;
+  color: #8498ba;
 }
 
 
@@ -213,7 +224,7 @@ li a {
 .proj-description {
   display: inline-block;
   text-align: left;
-  min-width: 300px;
+  min-width: 280px;
   max-width: 500px;
   vertical-align: top;
   padding-left: 20px;
@@ -227,7 +238,7 @@ hr {
 .job-description {
   display: inline-block;
   text-align: left;
-  min-width: 300px;
+  min-width: 280px;
   max-width: 500px;
   vertical-align: top;
   padding-left: 20px;
@@ -260,12 +271,15 @@ div#portrait {
 
 .title {
   position: absolute;
-  top: 40%;
-  width: 100%;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  height: 200px;
   text-align: center;
   color: white;
   font-size: 50px; 
   font-family: 'Raleway', sans-serif;
+  margin: -100px 0 0 -250px;
 }
 
 .tint, .tintHeader {
@@ -338,8 +352,7 @@ div#portrait {
 
 #description {
   font-size: 14px;
-  width: 70%;
-  max-width: 500px;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -434,4 +447,24 @@ div#portrait {
   animation-fill-mode: forwards;
   -webkit-animation-direction: normal, alternate;
   animation-direction: normal, alternate;
+}
+
+@media screen and (max-width: 479px) {
+  ul#nav {
+    display: none;
+  }
+
+  .title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 320px;
+    height: 200px;
+    text-align: center;
+    color: white;
+    font-size: 36px; 
+    font-family: 'Raleway', sans-serif;
+    margin: -100px 0 0 -150px;
+  }
+
 }
