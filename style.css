@@ -11,7 +11,7 @@ ul#nav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.7);
   font-family: 'Raleway', sans-serif;
   font-size: 12px;
   position: fixed;
@@ -52,38 +52,6 @@ li a {
     text-decoration: none;
 }
 
-.icon {
-  margin-right: 20px;
-}
-
-#resume {
-  color: #8498ba;
-}
-
-#skills {
-  background-color: #495054;
-  overflow: auto;
-}
-
-.experience {
-  background-color: #707a7e;
-  height: auto;
-  color: white;
-  font-family: 'Raleway', sans-serif;
-}
-
-.projects {
-  background-color: #495054;
-  height: auto;
-  color: white;
-  font-family: 'Raleway', sans-serif;
-}
-
-.projects img {
-  display: inline-block;
-  width: 200px;
-  padding-bottom: 5px;
-}
 
 .header {
   padding-top: 20px;
@@ -106,6 +74,56 @@ li a {
 .header3{
   font-size: 20px;
   color: #95979b;
+}
+
+.icon {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+#resume {
+  color: #8498ba;
+}
+
+#skills {
+  background-color: #474e51;
+  overflow: auto;
+  color: white;
+}
+
+#skills.header2 {
+  color: gray;
+}
+
+.experience {
+  background-color: #1a1b1c;
+  height: auto;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  padding-bottom: 20px;
+}
+
+.projects {
+  background-color: #29363d;
+  height: auto;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+.projects img {
+  display: inline-block;
+  width: 200px;
+  padding-bottom: 5px;
+}
+
+.projects a {
+  color: #8498ba;
+  text-decoration: underline;
+}
+
+.projects a:hover {
+  color: gray;
+  text-decoration: none;
 }
 
 .container { 
@@ -144,29 +162,30 @@ li a {
   float: left;
   font-family: 'Raleway', sans-serif;
   font-size: 12px;
-  float: left;
   margin: 10px;
 }
 
-.jobPicText { 
-
-  margin: 0 auto;
-  width: 80%;
-  height: auto;
-  overflow: hidden;
-  padding-bottom: 25px;
-  padding-top: 25px;
+.tag {
+  line-height: 10px;
+  border-radius: 15px;
+  text-align: center;
+  border: 1px solid #8498ba;
+  color: #8498ba;
+  float: left;
+  font-family: 'Raleway', sans-serif;
+  font-size: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  padding: 5px;
 }
 
 
-#links a{
+#links{
        display: inline-block;
-       vertical-align: middle;
-     margin: 0 auto;
-     top: 0%;
-}
+       text-align: center;
+     }
 
-a img { 
+#links img { 
   width: 30px;
   height: 30px;
 }
@@ -181,7 +200,8 @@ a img {
 .proj-container {
   text-align: center;
   width: 100%;
-  padding: 20px;
+  padding: 10px;
+  padding-bottom: 30px;
 }
 
 .job-container {
@@ -257,7 +277,6 @@ div#portrait {
 .languageContainer {
   width: 70px;
   text-align: center;
-  color: white;
   float: left;
   font-family: 'Raleway', sans-serif;
   margin: 10px;
@@ -274,7 +293,7 @@ div#portrait {
   height: 100%;
 }
 
-.background1, .background2 {
+.background1 {
   position: relative;
   opacity: 1;
   background-attachment: fixed;
@@ -293,19 +312,18 @@ div#portrait {
 
 .background1 { 
   background-color: black;
-  background-image: url("https://grs614.files.wordpress.com/2013/02/waterfront2.jpg");
+  background-image: url("pics/boston.jpg");
   height: 100%;
 }
 
-.background2 { 
-  background-color: #707a7e;
-  /*background-image: url("https://grs614.files.wordpress.com/2013/02/waterfront2.jpg");*/
+.footer {
+  background-color: #1a1b1c;
+  text-align: center;
+  padding-bottom: 30px;
 }
 
-.footer {
-  background-color: #284168;
-  text-align: center;
-  padding: 30px;
+.footer.header {
+  padding-bottom: 10px;
 }
 
 #marker { 

@@ -33,10 +33,10 @@
       <div class="title">
         hi, i'm <span id="alex">alex</span><span id="nguyen">nguyen</span>
         <div id="description">
-          I am a 22 year old living in Boston, MA. Having recently graduated with a B.S. in Computer Science from Tufts University, I aspire to become a Software Developer and am currently seeking an entry-level role. Below are my skills, experiences, and projects.
+          I am a 22 year old living in Boston, MA. Having recently graduated with a B.S. in Computer Science from Tufts University, I aspire to become a Software Developer and am currently seeking an entry-level role.
         </div>
         <div id="links">
-          <a href="http://www.github.com/alextnguyen"><img alt="github" class="icon hvr-bob" src="pics/github-logo.png"></a> <a href="http://www.linkedin.com/in/alextnguyen"><img alt="linkedin" class="icon hvr-bob" src="pics/social.png"></a> <a class="icon hvr-bob" href="mailto:nguyen.alexthai@gmail.com"><img alt="email" src="pics/envelope.png"></a>
+          <a href="http://www.github.com/alextnguyen" class="icon hvr-bob"><img alt="github" src="pics/github-logo.png"></a> <a href="http://www.linkedin.com/in/alextnguyen" class="icon hvr-bob"><img alt="linkedin" src="pics/social.png"></a> <a href="mailto:nguyen.alexthai@gmail.com" class="icon hvr-bob"><img alt="email" src="pics/envelope.png"></a>
         </div>
       </div>
     </div>
@@ -82,7 +82,6 @@
   </div>
   <a id="experience" name="experience"></a>
   <div class="experience background2">
-  <div class="tintHeader">
 
       <div class = "header">experience</div>
       <div class = "job-container">
@@ -101,25 +100,40 @@
 • Provided constructive feedback on students’ projects by critiquing functionality, style, readability, runtime efficiency, and modularity 
         </div>
       </div>
-      </div>
   </div>
+    <a id="projects" name="projects"></a>
+
   <div class="projects">
       <div class="header">projects</div>
       <div class = "proj-container">
-        <div class = "proj-icon"><img src = "pics/queuer.png"></img> Github | Google Play</div>
+        <div class = "proj-icon"><img src = "pics/queuer.png"></img> <a href = "https://github.com/AlexTNguyen/QueueR">Github</a> | <a href = "https://play.google.com/store/apps/details?id=com.alextommy.queuer" >Google Play</a></div>
         <div class = "proj-description">
         <span class = "header2"> QueueR </span> <br>
         QueueR is an Android app to be used by restaurants and their customers. Restaurants sign up for an account, which generates for them a unique QR code that they can display in front of their restaurants. Customers can then use the app to scan this QR code to enter themselves onto the restaurant's waitlist. The customer's client then displays their position in line and they will receive a push notification for when their table is ready. On the restaurant's client, they are able to manage the wait list by setting statuses (waiting, seated, finished) to the entries. <br><br> To handle the account authentication, the database, and the push notifications, Google Firebase was used. To generate, scan, and decode the QR codes, a library called ZXing was used. 
+        <div class = "tags-container">
+          <div class = "tag hvr-bob">ANDROID</div>
+          <div class = "tag hvr-bob">JAVA</div>
+          <div class = "tag hvr-bob">FIREBASE</div>
+          <div class = "tag hvr-bob">ZXING</div>
+        </div>
         </div>
       </div>
       <hr>
       <div class = "proj-container">
         <div class = "proj-icon"><img src = "pics/whoop.png"></img> Github | Google Play</div>
         <div class = "proj-description">
-        <span class = "header2"> Whoop! </span> <br>
-      • Developed a vacation itinerary planner that displays attractions and upcoming events on a map in a team of three
-<br>• Full stack development using HTML5, CSS, Express + Node.js, Google Maps API, and TripAdvisor API
-
+        <span class = "header2"> Whoop! </span> <br> Developed during Tufts Polyhack 2016, 'Whoop!' is a web application that users can use to plan their vacations. As an itinerary planner, it displays both attractions and upcoming events on a map. 
+<br>Full stack development using HTML5, CSS3, Express + Node.js, Google Maps API, and TripAdvisor API
+        <div class = "tags-container">
+          <div class = "tag hvr-bob">BOOTSTRAP</div>
+          <div class = "tag hvr-bob">HTML5</div>
+          <div class = "tag hvr-bob">CSS3</div>
+          <div class = "tag hvr-bob">JAVASCRIPT</div>
+          <div class = "tag hvr-bob">EXPRESS</div>
+          <div class = "tag hvr-bob">NODE.JS</div>
+          <div class = "tag hvr-bob">GOOGLE MAPS API</div>
+          <div class = "tag hvr-bob">TRIPADVISOR API</div>
+        </div>
         </div>
       </div>
       <hr>
@@ -129,12 +143,36 @@
         <span class = "header2"> ConductR </span> <br>
         Ever in the middle of doing something productive online when a bad song comes up and ruins your vibe? Tired of having to switch tabs to play the next video on YouTube? Well, ConductR is the solution for you! With ConductR, you are the conductor for your own orchestra. This web app uses your webcam along with your hand gestures to manipulate a YouTube playlist that you enter. Wave right to play the next video, wave left to play the previous, wave up to stop, and wave down to shuffle. It's that easy! <br><br>
         Developed using Bootstrap for the frontend, the YouTube API, and a library called Gest.js to recognize hand movements.
+
+        <div class = "tags-container">
+          <div class = "tag hvr-bob">BOOTSTRAP</div>
+          <div class = "tag hvr-bob">HTML5</div>
+          <div class = "tag hvr-bob">CSS3</div>
+          <div class = "tag hvr-bob">JAVASCRIPT</div>
+          <div class = "tag hvr-bob">YOUTUBE API</div>
+          <div class = "tag hvr-bob">GEST.JS</div>
+        </div>
+        </div>
+      </div>
+      <hr>
+      <div class = "proj-container">
+        <div class = "proj-icon"><img src = "pics/urbantranslate.png"></img> Github | Google Play</div>
+        <div class = "proj-description">
+        <span class = "header2"> UrbanTranslate</span> <br>
+      Developed during Tufts Polyhack 2015, UrbanTranslate is a Google Chrome Extension that provides the top UrbanDictionary definition for user-inputted terms. Developed by writing a script that creates bubble overlays over highlighted terms in the user's browser.
+      <div class = "tags-container">
+          <div class = "tag hvr-bob">GOOGLE CHROME EXTENSION</div>
+          <div class = "tag hvr-bob">HTML5</div>
+          <div class = "tag hvr-bob">CSS3</div>
+          <div class = "tag hvr-bob">JAVASCRIPT</div>
+        </div>
         </div>
       </div>
   </div>
   <div class = "footer">
+  <div class = "header">contact</div>
   <div id="links">
-          <a href="http://www.github.com/alextnguyen"><img alt="github" class="icon" src="pics/github-logo.png"></a> <a href="http://www.linkedin.com/in/alextnguyen"><img alt="linkedin" class="icon" src="pics/social.png"></a> <a class="icon" href="mailto:nguyen.alexthai@gmail.com"><img alt="email" src="pics/envelope.png"></a>
+          <a href="http://www.github.com/alextnguyen"><img alt="github" class="icon hvr-bob" src="pics/github-logo.png"></a> <a href="http://www.linkedin.com/in/alextnguyen"><img alt="linkedin" class="icon hvr-bob" src="pics/social.png"></a> <a href="mailto:nguyen.alexthai@gmail.com"><img class="icon hvr-bob" alt="email" src="pics/envelope.png"></a>
         </div>
   </div>
 </body>

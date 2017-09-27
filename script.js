@@ -1,4 +1,4 @@
-
+window.addEventListener("hashchange", function() { scrollBy(0, -45) });
 
 var slideIndex = 1;
 
