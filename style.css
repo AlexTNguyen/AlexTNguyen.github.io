@@ -311,7 +311,7 @@ div#portrait {
 }
 
 .background1 {
-  background-color: black;
+  background-color: white;
   background-image: url("pics/boston.jpg");
   position: relative;
   opacity: 1;
@@ -457,10 +457,6 @@ div#portrait {
     background-color: black;
     text-align: right;
     font-weight: bold;
-  }
-
-  .background1 {
-    background-position: center bottom;
   }
 
   .hidden-link {
