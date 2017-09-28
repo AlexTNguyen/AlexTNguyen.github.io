@@ -455,6 +455,7 @@ div#portrait {
 @media screen and (max-width: 479px) {
   ul#nav {
     background-color: black;
+    background-attachment: scroll;
     text-align: right;
     font-weight: bold;
   }
