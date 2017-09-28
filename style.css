@@ -318,10 +318,10 @@ div#portrait {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background-size: cover !important;
+  webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
   height: 100%;
 }
 
@@ -455,9 +455,12 @@ div#portrait {
 @media screen and (max-width: 479px) {
   ul#nav {
     background-color: black;
-    background-attachment: scroll;
     text-align: right;
     font-weight: bold;
+  }
+
+  .background1 {
+    background-attachment: scroll;
   }
 
   .hidden-link {
